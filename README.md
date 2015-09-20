@@ -1,12 +1,12 @@
 
 <1>. findGPIO.py
-.. moduleauthor:: zhichao, wang <ziccowarn@gmail.com>
-.. Program to test looking up information in /usr/share/bone101/static/bone.js
-.. Usage:  findGPIO.py 7     # Look up info for gpio7 (internal pin number)
-..         findGPIO.py P9_12 # Look up using header pin number (external)
-..         findGPIO.py P9_12 P9_13 ...  # Look up multiple pins and use one line
-..                                      # output for each.
-.. Returns current pin mux
+moduleauthor:: zhichao, wang <ziccowarn@gmail.com>
+Program to test looking up information of GPIO Pins on BeagleBone Black Board
+Usage:  findGPIO.py 7     # Look up info for gpio7 (internal pin number)
+        findGPIO.py P9_12 # Look up using header pin number (external)
+        findGPIO.py P9_12 P9_13 ...  # Look up multiple pins and use one line
+                                     # output for each.
+  Returns current pin mux
 
 <2>. freeGPIO.py
 
